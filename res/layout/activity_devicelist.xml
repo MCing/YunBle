@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+	
+    <TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/lv"
+	    android:layout_alignRight="@+id/lv"
+	    android:text="@string/start_scan" 
+	    android:padding="15dp"
+	    android:textColor="#36a315"
+        android:textSize="18sp"/>
+
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:layout_below="@+id/textView1"
+	    android:background="#0f0"
+	    android:text="" />
+   <ListView
+       android:id="@+id/lv"
+       android:layout_marginTop="20dp"
+       android:layout_below="@+id/textView2"
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:layout_marginLeft="20dip"
+       android:layout_marginRight="20dip" >
+	</ListView>
+	<Button
+	       android:id="@+id/scan_dev_btn"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_alignRight="@+id/lv"
+	       android:layout_marginLeft="20dip"
+	       android:layout_below="@+id/lv"
+	       android:layout_marginTop="20dp"
+	       android:text="@string/start_scan" />
+
+	
+	
+</RelativeLayout>

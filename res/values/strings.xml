@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YunBle</string>
+    <string name="reset">Reset</string>
+    <string name="confirm">Ok</string>
+    <string name="control">Control</string>
+    <string name="control_off">Control off</string>
+    <string name="picktimetip">choose duration</string>
+    <string name="connected">connected</string>
+    <string name="disconnected">disconnected</string>
+    <string name="angle">Angle</string>
+    <string name="duration">Duration</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="days"> D.</string>
+    <string name="hours"> H.</string>
+    <string name="minutes"> M.</string>
+    <string name="seconds"> S.</string>
+    <string name="error">||-_-  too fast!</string>
+    <string name="language">Language</string>
+    <string name="scan">Scan device</string>
+    <string name="en">English</string>
+    <string name="ch">Chinese</string>
+    <string name="connect_error">Please connect to device!</string>
+    <string name="start_scan">Scan for devices</string>
+    <string name="stop_scan">Stop scaning</string>
+    <string name="devicename">Device:</string>
+    <string name="address">Address:</string>
+    <string name="task">Task</string>
+    <string name="left">Running</string>
+    <string name="ctrl_error">A task is on, please stop it first!</string>
+    
+</resources>

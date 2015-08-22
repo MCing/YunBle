@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>    
+<drawable name="dkgray">#80808FF0</drawable>    
+<drawable name="yello">#F8F8FF00</drawable>    
+<drawable name="white">#FFFFFF</drawable>    
+<drawable name="darkgray">#938192</drawable>    
+<drawable name="lightgreen">#7cd12e</drawable>    
+<drawable name="black">#ff000000</drawable>    
+<drawable name="blue">#ff0000ff</drawable>    
+<drawable name="cyan">#ff00ffff</drawable>    
+<drawable name="gray">#ff888888</drawable>    
+<drawable name="green">#ff00ff00</drawable>    
+<drawable name="ltgray">#ffcccccc</drawable>    
+<drawable name="magenta">#ffff00ff</drawable>    
+<drawable name="red">#ffff0000</drawable>    
+<drawable name="transparent">#00000000</drawable>    
+<drawable name="yellow">#ffffff00</drawable> 
+<!-- 自定义的颜色 -->
+<drawable name="dark_blue">#ff405589</drawable>  
+<drawable name="light_blue">#5295E3</drawable>  
+<drawable name="light_grey">#b8BFB9B9</drawable>  
+<drawable name="dark_grey">#ff303030</drawable> 
+<drawable name="dark_grey2">#ff3A4D63</drawable> 
+<drawable name="dark_grey1">#ff3C3F41</drawable> 
+</resources>

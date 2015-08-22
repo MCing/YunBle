@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YunBle</string>
+    <string name="reset">重置</string>
+    <string name="confirm">确定</string>
+    <string name="control">控　制</string>
+    <string name="picktimetip">选择时长</string>
+    <string name="connected">连接</string>
+    <string name="disconnected">未连接</string>
+    <string name="angle">角度 </string>
+    <string name="duration">时长</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="days">天</string>
+    <string name="hours">小时</string>
+    <string name="minutes">分钟</string>
+    <string name="seconds">秒</string>
+    <string name="error">||-_-  太快了，超过我的极限啦!</string>
+    <string name="en">英语</string>
+    <string name="ch">中文</string>
+    <string name="language">语言</string>
+    <string name="scan">连接设备</string>
+    <string name="connect_error">没有连接设备!</string>
+    <string name="start_scan">扫描设备</string>
+    <string name="stop_scan">停止扫描</string>
+     <string name="devicename">设备名称:</string>
+    <string name="address">设备地址:</string>
+    <string name="task">任务</string>
+    <string name="left">剩余</string>
+    <string name="ctrl_error">请先停止正在运行的任务！</string>
+</resources>
