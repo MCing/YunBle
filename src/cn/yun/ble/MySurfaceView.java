@@ -4,9 +4,12 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.LinearGradient;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.graphics.RadialGradient;
 import android.graphics.Rect;
+import android.graphics.Shader;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -96,6 +99,9 @@ public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback
 
 	        //背景
 	        bgPaint = new Paint();
+//	        LinearGradient shader = new LinearGradient(0, 0, client_width, client_height, 0xff3486E3, 0xff3A4D63, Shader.TileMode.CLAMP);
+	        RadialGradient shader = new RadialGradient(cenx, ceny, CLOCK_RADIO+100, 0xff3486E3, 0xff3A4D63,  Shader.TileMode.CLAMP);
+	        bgPaint.setShader(shader);
 	        bgPaint.setColor(getResources().getColor(R.drawable.dark_grey2));
 	        //内圆
 	        innerDialPaint = new Paint();
